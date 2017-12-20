@@ -1,0 +1,11 @@
+Tips:
+1.python版本为2.7
+2.mysql数据库默认参数,可在'flasht.flasht.settings.py'中修改
+'NAME': 'flash_system',
+'USER': 'root',
+'PASSWORD': '123456',
+'HOST': '127.0.0.1'
+3.使用'python manage.py migrate'命令生成相应表
+4.'python manage.py createsuperuser'命令创建超级用户登录后台
+5.'python manage.py runserver'运行django程序,'http://127.0.0.1:8000/xadmin/'
+
